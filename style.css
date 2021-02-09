@@ -1,0 +1,205 @@
+/* #86868b svg color */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utilities */
+
+.px-1{
+  padding: 0 10px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* header and NavBar */
+
+/* navbar */
+.navbar{
+  z-index: 9999;
+  position: fixed;
+  background-color: rgb(55, 56, 58);
+  top: 0;
+  /* background-color: transparent; */
+  height: 44px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-navbar{
+  width: 1000px;
+}
+
+.content-navbar ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.content-navbar ul li{
+  list-style: none;
+  padding: 0 10px;
+  height: 44px;
+}
+
+.symbol{
+  width: 38px;
+  height: 44px;
+}
+
+.covid{
+  height: 44px;
+  width: 100%;
+  background-color: #2371E3;
+  position: absolute;
+  top: 44px;
+  display: flex;
+  justify-content: center;
+}
+
+.contentCovid{
+  width: 368px;
+  padding: 12px 0;
+  color: white;
+}
+
+.contentCovid a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.contentCovid a:hover{
+  text-decoration: underline;
+}
+
+.shop-online{
+  height: 64px;
+  width: 100%;
+  background-color: #F5F5F7;
+  position: absolute;
+  top: 88px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.shop-online-content{
+  width: 735px;
+  padding: 13px 0;
+  color: #A6A6A8;
+}
+
+.shop-online-content p{
+  color: #1d1d1f ;
+}
+
+.shop-online-content a{
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 13px;
+}
+
+.shop-online-content a:hover{
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------------------------------- */
+/* sectionA */
+
+#sectionA{
+  position: absolute;
+  top: 152px;
+  position: relative;;
+  width: 100%;
+  border-bottom: 12px solid black;
+  height: 70vh;
+}
+
+#sectionA .main-img{
+  z-index: 1;
+  position: absolute;
+  width: 31vw;
+  height: 90vh;
+  max-height: 530px;
+  bottom: 0px;
+  left: calc(50% - 15.5vw);
+  background: url('/apple\ pics\ and\ svg/The_Snoopy_Show.jpg') no-repeat center center/cover;
+}
+
+#sectionA .tv-logo{
+  position: absolute;
+  top: 5vh;
+  left: calc(50% - 3vw);
+}
+
+#sectionA .new-series{
+  position: absolute;
+  z-index: 1;
+  top: 11.5vh;
+  left: calc(50% - 82px);
+  font-size: 30px;
+  color: black;
+
+} 
+
+
+#sectionA .tv-logo img{
+  width: 6vw;
+  max-width: 116px;
+  height: 5vh;
+}
+
+.btn{
+  position: absolute;
+  z-index: 1;
+  top: 61vh;
+  left: calc(50% - 5vw);
+  width: 10vw;
+  height: 6vh;
+  color: #F5F5F7;
+  background-color: black;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn i{
+  color: white;
+  font-size: 16px;
+}
+
+.btn span:hover{
+  text-decoration: underline;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* sectionB */
+
+
+#sectionB{
+  position: absolute;
+  top: 152px;
+  position: relative;;
+  width: 100%;
+  border-bottom: 12px solid black;
+  height: 70vh;
+}
+
+#sectionB .main-img{
+  z-index: 1;
+  position: absolute;
+  width: 31vw;
+  height: 90vh;
+  max-height: 265px;
+  bottom: 0px;
+  left: calc(50% - 15.5vw);
+  background: url('/apple\ pics\ and\ svg/iphones.jpg') no-repeat center center/cover;
+}
